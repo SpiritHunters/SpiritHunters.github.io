@@ -18,7 +18,8 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 5;
+  border: 5;
 }
 
 
@@ -53,6 +54,43 @@ body {
   --newtab-textbox-focus-boxshadow: 0 0 0 1px var(--newtab-primary-action-background), 0 0 0 4px rgba(var(--newtab-primary-action-background), 0.3);
   --newtab-button-secondary-color: inherit;
 }
+.discord {
+  display: flex;
+  margin-bottom: 10px;
+  color: rgb(55, 108, 255);
+}
+.rubie {
+  display: flex;
+  margin-bottom: 2px;
+  color: rgb(255, 0, 0);
+}
+.hide {
+  display: flex;
+  margin-bottom: 2px;
+  color: rgb(17, 17, 17);
+}
+.title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+  font-weight: normal;
+  color: #FFF;
+}
+or {
+  color: rgb(255, 174, 0);
+}
+bl {
+  color: rgb(0, 195, 255);
+}
+  
 body[lwt-newtab-brighttext] {
   --newtab-background-color: #2B2A33;
   --newtab-background-color-secondary: #42414d;
@@ -262,20 +300,7 @@ body {
   overflow: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h6,
-p {
-  font-weight: normal;
-  color: #FFF;
-}
-h5 {
-    font-weight: normal;
-    color: rgb(178, 223, 241);
-  }
-  
+
 
 a {
   text-decoration: none;
@@ -566,6 +591,7 @@ a {
   margin-top: 4px;
   cursor: pointer;
 }
+
 .topsite-form .form-wrapper .custom-image-input-container {
   margin-top: 4px;
 }
