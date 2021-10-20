@@ -20,6 +20,7 @@ html {
 body {
   margin: 5;
   border: 5;
+  padding: 3px;
 }
 
 
@@ -67,22 +68,25 @@ body {
 .hide {
   display: flex;
   margin-bottom: 2px;
-  color: rgb(17, 17, 17);
+  color: rgb(7, 7, 7);
 }
 .title {
   align-items: center;
   display: flex;
   justify-content: center;
   margin-bottom: 48px;
+  padding: 20px;
 }
 h1,
 h2,
 h3,
 h4,
+h5,
 h6,
 p {
   font-weight: normal;
   color: #FFF;
+  padding: 2px;
 }
 or {
   color: rgb(255, 174, 0);
@@ -90,6 +94,18 @@ or {
 bl {
   color: rgb(0, 195, 255);
 }
+.risk {
+  color: rgb(255, 196, 0);
+  border: 5px solid rgb(255, 0, 0);
+  padding: 10px;
+}
+.boror {
+  border: 3px solid rgb(255, 136, 0);
+}
+.borbl {
+  border: 3px solid rgb(0, 153, 255);
+}
+
   
 body[lwt-newtab-brighttext] {
   --newtab-background-color: #2B2A33;
