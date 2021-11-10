@@ -79,13 +79,8 @@ p{
   color: #FFF;
   padding: 2px;
 }
-table,
-tr,
-th,
-td {
-  font-weight: normal;
-  color: #FFF;
-  padding: 2px;
+table, th, td {
+  border: 1px solid #FFF;
 }
 or {
   color: rgb(255, 174, 0);
