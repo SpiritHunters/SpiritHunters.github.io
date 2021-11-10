@@ -81,6 +81,7 @@ p{
 }
 table, th, td {
   border: 1px solid #FFF;
+  color: #FFF;
 }
 or {
   color: rgb(255, 174, 0);
