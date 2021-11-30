@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/* This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
-/* This is the windows variant */
 html {
   box-sizing: border-box;
 }
@@ -25,26 +21,6 @@ body {
   --newtab-text-primary-color: #ffffff;
   --newtab-primary-action-background: #0061e0;
   --newtab-text-secondary-color: color-mix(in srgb, var(--newtab-text-primary-color) 80%, transparent);
-  --newtab-element-hover-color: color-mix(in srgb, var(--newtab-background-color) 95%, rgb(255, 255, 255));
-  --newtab-element-active-color: color-mix(in srgb, var(--newtab-background-color) 90%, rgb(177, 132, 132));
-  --newtab-element-secondary-color: color-mix(in srgb, currentColor 5%, transparent);
-  --newtab-element-secondary-hover-color: color-mix(in srgb, currentColor 12%, transparent);
-  --newtab-element-secondary-active-color: color-mix(in srgb, currentColor 25%, transparent);
-  --newtab-primary-element-hover-color: color-mix(in srgb, var(--newtab-primary-action-background) 90%, rgb(255, 255, 255));
-  --newtab-primary-element-active-color: color-mix(in srgb, var(--newtab-primary-action-background) 80%, rgb(255, 255, 255));
-  --newtab-primary-element-text-color: rgb(255, 255, 255);
-  --newtab-primary-action-background-dimmed: color-mix(in srgb, var(--newtab-primary-action-background) 25%, transparent);
-  --newtab-border-color: color-mix(in srgb, var(--newtab-background-color) 75%, rgb(255, 255, 255));
-  --newtab-wordmark-color: #ffffff;
-  --newtab-status-success: #058B00;
-  --newtab-status-error: #D70022;
-  --newtab-inner-box-shadow-color: rgba(255, 255, 255, 0.1);
-  --newtab-overlay-color: color-mix(in srgb, var(--newtab-background-color) 85%, transparent);
-  --newtab-text-emphasis-background: #FFE900;
-  --newtab-text-emphasis-text-color: #ffffff;
-  --newtab-textbox-focus-color: var(--newtab-primary-action-background);
-  --newtab-textbox-focus-boxshadow: 0 0 0 1px var(--newtab-primary-action-background), 0 0 0 4px rgba(var(--newtab-primary-action-background), 0.3);
-  --newtab-button-secondary-color: inherit;
 }
 .discord {
   display: flex;
@@ -107,15 +83,6 @@ body[lwt-newtab-brighttext] {
   --newtab-background-color-secondary: #42414d;
   --newtab-text-primary-color: #fbfbfe;
   --newtab-primary-action-background: #00ddff;
-  --newtab-element-hover-color: color-mix(in srgb, var(--newtab-background-color) 95%, #FFF);
-  --newtab-element-active-color: color-mix(in srgb, var(--newtab-background-color) 90%, #FFF);
-  --newtab-element-secondary-color: color-mix(in srgb, currentColor 10%, transparent);
-  --newtab-element-secondary-hover-color: color-mix(in srgb, currentColor 17%, transparent);
-  --newtab-element-secondary-active-color: color-mix(in srgb, currentColor 30%, transparent);
-  --newtab-border-color: color-mix(in srgb, var(--newtab-background-color) 75%, rgb(255, 255, 255));
-  --newtab-primary-element-text-color: #2b2a33;
-  --newtab-wordmark-color: #fbfbfe;
-  --newtab-status-success: #7C6;
 }
 
 .icon {
