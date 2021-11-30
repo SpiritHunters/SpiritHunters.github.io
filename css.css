@@ -120,14 +120,3 @@ body {
   font-size: 16px;
   fill: var(--newtab-text-primary-color);
 }
-
-.no-scroll {
-  overflow: hidden;
-}
-
-
-
-a {
-  text-decoration: none;
-}
-
