@@ -1,7 +1,4 @@
 @charset "UTF-8";
-html {
-  box-sizing: border-box;
-}
 
 
 body {
@@ -107,10 +104,6 @@ html {
   height: 100%;
 }
 
-body,
-#root {
-  min-height: 100vh;
-}
 
 #root {
   position: relative;
